@@ -1,0 +1,58 @@
+*{
+	margin: 1;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-color: #004e95;
+	height: auto;
+}
+
+header{
+	margin-top: auto;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+  }
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	transition: 0.4s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.opa img{
+	float: left;
+	width: 50px;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+.keimeno{
+	text-align: center;
+	color:#fff;
+	margin-top: 15%;
+}
+
+footer{
+	font-family: 'Tomorrow', sans-serif;
+	color:fff;
+	margin-top: 17%;
+	
+}

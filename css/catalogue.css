@@ -1,0 +1,125 @@
+body{
+	background-color: #A0A0A0;
+	color: #55555;
+	font-family: 'Odibee Sans', cursive;
+}
+
+.menu{
+  margin: 1;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+ul{
+  list-style: none;
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 2px solid black;
+  transition: 0.4s ease;
+}
+
+ul li a:hover{
+  background-color:#E8E8E8;
+  color: #000;
+}
+
+.opa img{
+	float: left;
+	width: 50px;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+table{
+	font-size: 130%;
+	text-align: center;
+	margin: 5% auto;
+	float: center auto;
+	width: 80%;
+	height: 300%;
+}
+
+table, th, td {
+	border: 3px solid #000;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #34495e
+}
+
+button {
+	background-color: gold;
+	color: black;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.border{
+  width: 180px;
+  height: 4px;
+  background: #333;
+  margin: 60px auto;
+}
+
+.slideshow-container {
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container, img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+footer {
+  font-family: 'Tomorrow', sans-serif;
+	color:fff;
+	margin-top: 5%;
+}

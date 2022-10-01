@@ -1,0 +1,143 @@
+body{
+	background-color: #A0A0A0;
+}
+
+.menu {
+  margin: 1;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+table {
+  margin: auto;
+}
+
+ul{
+  list-style: none;
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  transition: 0.4s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.opa img{
+	float: left;
+	width: 50px;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+.imageHeader{
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imageSecond{
+  width: 300px;
+  height: 200px;
+}
+
+.imageThird{
+  width: 400px;
+  height: 300px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.border{
+  width: 70%;
+  height: 100%;
+  background: #333;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container, img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  alignment-baseline: central;
+  width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.mySlides1 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}

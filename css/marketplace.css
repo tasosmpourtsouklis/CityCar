@@ -1,0 +1,117 @@
+*{
+	margin: 1;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-color: #A0A0A0;
+	height: auto;	
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	transition: 0.4s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.opa img{
+	float: left;
+	width: 50px;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+footer{
+	font-family: 'Tomorrow', sans-serif;
+	color: #000;
+}
+
+img{
+	width:300px;
+}
+
+.container{
+	display: inline-block;
+}
+
+h2, h3, h5{
+	color:#fff;	
+}
+
+table{
+	font-size: 130%;
+	text-align: center ;
+	margin: 14px auto;
+	float: center ;
+	width: 80%;
+	height: 500px;
+	border-spacing: 13px;
+	margin-top: 5%;
+}
+
+.wrapper{
+font-family:sans-serif;
+width: 80%;
+position:relative;
+}
+
+img{
+opacity: 1;
+display: block;
+transition: .5s ease;
+}
+
+.grammata{
+position: absolute;
+top:45%;
+left: 60%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-transform: uppercase;
+font-size: 30px;
+color:#fff;
+white-space: nowrap;
+overflow: hidden
+}
+
+.grammata a{
+font-size: 16px;
+display: block;
+background-color: #ff771d;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+text-decoration: none;
+color:black;
+}
+
+.overlay{
+opacity: 0
+}
+
+.wrapper:hover img{
+opacity: .5
+}
+
+.wrapper:hover .overlay{
+opacity: 1
+}
