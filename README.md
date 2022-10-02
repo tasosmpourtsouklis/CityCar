@@ -5,7 +5,7 @@ Excercise for the class ***"Introducion to Computer Science"***.
 Department of Informatics, Athens University of Economics and Business.
 
 Excercise's details:
-- Develop a local site, which presents some products, using *HTLM & CSS*.
+- Develop a local site, which presents some products, using *HTML & CSS*.
 - The site must include:
   - Home page
   - Menu
